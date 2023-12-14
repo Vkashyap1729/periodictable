@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Element Information</h1>
+
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>Symbol</th>
+            <th>Atomic Number (Z)</th>
+            <th>Group</th>
+        </tr>
+        <tr>
+            <td class="element" data-element="Neodymium" data-group="lanthanide">Neodymium</td>
+            <td>Nd</td>
+            <td id="atomic-number">60</td>
+            <td id="group">Lanthanide</td>
+        </tr>
+    </table>
+
+    <script>
+        // Update the content of the existing cells with Neodymium information
+        document.getElementById("atomic-number").textContent = "60";
+        document.getElementById("group").textContent = "Lanthanide";
+    </script>
+</body>
+</html>

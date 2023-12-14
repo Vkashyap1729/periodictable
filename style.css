@@ -12,21 +12,21 @@ body{
     text-align: center;
     text-decoration: solid;
     text-rendering: geometricPrecision;
-    background-color: brown;
 }
 h1{
     color: bisque;
     text-align: center;
     font-size: xx-large;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-weight: bold;
 }
 table{
     /* display: flex; */
-    align-items: center;
+    align-items: ;
 }
 td{
-    padding: 15px;
+    padding: 0px;
+    text-align: center;
 }
 td[data-group="lanthanide"] {
     background-color: hsl(42deg, 62%, 76%);
@@ -73,6 +73,11 @@ td[data-group="post-transition-metal"] {
     font-weight: bold;
 }
 .dummy{
-    /* background-color: aqua; */
     color: bisque;
+    font-size: xx-large;
+}
+.sep{
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
 }
