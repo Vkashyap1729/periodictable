@@ -1,6 +1,13 @@
 body{
-    background-color: bisque;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color:black;
+  }
+  
 .element{
     text-align: center;
     text-decoration: solid;
@@ -8,11 +15,64 @@ body{
     background-color: brown;
 }
 h1{
+    color: bisque;
     text-align: center;
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace; 
     font-weight: bold;
 }
+table{
+    /* display: flex; */
+    align-items: center;
+}
 td{
     padding: 15px;
+}
+td[data-group="lanthanide"] {
+    background-color: hsl(42deg, 62%, 76%);
+    font-weight: bold;
+  }
+td[data-group="actinide"] {
+    background-color: hsl(340deg, 67%, 88%);
+    font-weight: bold;
+}
+td[data-group="alkali-metal"] {
+    background-color: hsl(48deg, 77%, 64%);
+    font-weight: bold;
+}
+td[data-group="alkaline-earth-metal"] {
+    background-color: hsl(60deg, 83%, 67%);
+    font-weight: bold;
+}
+td[data-group="transition-metal"] {
+    background-color: hsl(12deg, 87%, 85%);
+    font-weight: bold;
+}
+td[data-group="metalloid"] {
+    background-color: hsl(165deg, 58%, 76%);
+    font-weight: bold;
+}
+td[data-group="non-metal"] {
+    background-color: hsl(120deg, 73%, 74%);
+    font-weight: bold;
+}
+td[data-group="noble-gas"] {
+    background-color: hsl(300deg, 44%, 82%);
+    font-weight: bold;
+}
+td[data-group="non-metal"] {
+    background-color: hsl(120deg, 73%, 74%);
+    font-weight: bold;
+}
+td[data-group="halogen"] {
+    background-color: hsl(120deg, 73%, 74%);
+    font-weight: bold;
+}
+td[data-group="post-transition-metal"] {
+    background-color: hsl(192deg, 62%, 80%);
+    font-weight: bold;
+}
+.dummy{
+    /* background-color: aqua; */
+    color: bisque;
 }
