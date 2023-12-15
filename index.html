@@ -5,10 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>PeriodicTable</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" id = "css">
 </head>
 <body>
     <h1>Periodic Table of Elements </h1>
+    <!-- <a href="./temp.html" style="color: aliceblue;" target="_blank">Identify Elements</a> -->
+    <table class = "navigator" >
+        <tr>
+            <td >lanthanide</td>
+            <td style="background-color: hsl(42deg, 62%, 76%); border-radius: 10px;" id = "colors"></td>
+            <td>|</td>
+            <td>metalloid</td>
+            <td style="background-color: hsl(165deg, 58%, 76%); border-radius: 10px;" id = "colors"></td>
+        </tr>
+        <tr>
+            <td>actinide</td>
+            <td style="background-color: hsl(340deg, 67%, 88%); border-radius: 10px;" id = "colors"></td>
+            <td>|</td>
+            <td>non-metal</td>
+            <td style="background-color: hsl(120deg, 73%, 74%); border-radius: 10px;" id = "colors"></td>
+        </tr>
+        <tr>
+            <td>alkali-metal</td>
+            <td style="background-color: hsl(48deg, 77%, 64%); border-radius: 10px;" id = "colors"></td>
+            <td>|</td>
+            <td>halogen</td>
+            <td style="background-color: hsl(120deg, 73%, 74%); border-radius: 10px;" id = "colors"></td>
+        </tr>
+        <tr>
+            <td>alkaline-earth-metal</td>
+            <td style="background-color: hsl(60deg, 83%, 67%); border-radius: 10px;" id = "colors"></td>
+            <td>|</td>
+            <td>noble-gas</td>
+            <td style="background-color: hsl(300deg, 44%, 82%); border-radius: 10px;" id = "colors"></td>
+        </tr>
+        <tr>
+            <td>transition-metal</td>
+            <td style="background-color: hsl(12deg, 87%, 85%); border-radius: 10px;" id = "colors" ></td>
+            <td>|</td>
+            <td>post-transition-metal</td>
+            <td style="background-color: hsl(192deg, 62%, 80%); border-radius: 10px;" id = "colors"></td>
+        </tr>
+    </table>
     <table class="periodic-table">
             <td></td>
             <td class = "dummy">1</td>
@@ -224,7 +262,6 @@
             <td class="element" data-element="Nobelium" data-group="actinide">102<br>No<br>Nobelium<br>(259)</td>
             <td class="element" data-element="Lawrencium" data-group="actinide">103<br>Lr<br>Lawrencium<br>(262)</td>
         </tr>
-      </table>
-      
+      </table> 
 </body>
 </html>

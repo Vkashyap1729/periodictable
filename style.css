@@ -64,13 +64,13 @@ td[data-group="noble-gas"] {
     background-color: hsl(300deg, 44%, 82%);
     font-weight: bold;
 }
-td[data-group="non-metal"] {
+td[data-group="halogen"]{
     background-color: hsl(120deg, 73%, 74%);
     font-weight: bold;
 }
-td[data-group="halogen"] {
-    background-color: hsl(120deg, 73%, 74%);
-    font-weight: bold;
+td[data-group="halogen"]:hover,td[data-group="noble-gas"]:hover,td[data-group="lanthanide"]:hover,td[data-group="actinide"]:hover,td[data-group="alkali-metal"]:hover,td[data-group="alkaline-earth-metal"]:hover,td[data-group="non-metal"]:hover,td[data-group="metalloid"]:hover,td[data-group="transition-metal"]:hover,td[data-group="post-transition-metal"]:hover{
+    background-color: crimson;
+    transform: scale(2);
 }
 td[data-group="post-transition-metal"] {
     background-color: hsl(192deg, 62%, 80%);
@@ -85,4 +85,16 @@ td[data-group="post-transition-metal"] {
     font-size: large;
     font-weight: bold;
 }
+.navigator{
+    width: 100px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 100;
+    align-items: center;
+    /* flex-direction: column; */
+}
+#colors:hover{
+    transform: scale(2);
+}
+
 /* nothin */
